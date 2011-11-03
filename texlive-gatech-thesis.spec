@@ -1,3 +1,9 @@
+# revision 19886
+# category Package
+# catalog-ctan /macros/latex/contrib/gatech-thesis
+# catalog-date 2010-07-26 16:46:28 +0200
+# catalog-license gpl
+# catalog-version 1.8
 Name:		texlive-gatech-thesis
 Version:	1.8
 Release:	1
@@ -59,6 +65,7 @@ Thesis Style Manual, as amended up to 2010.
 %doc %{_texmfdistdir}/doc/latex/gatech-thesis/example-thesis.bib
 %doc %{_texmfdistdir}/doc/latex/gatech-thesis/example-thesis.pdf
 %doc %{_texmfdistdir}/doc/latex/gatech-thesis/example-thesis.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -69,3 +76,5 @@ Thesis Style Manual, as amended up to 2010.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex makeindex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
