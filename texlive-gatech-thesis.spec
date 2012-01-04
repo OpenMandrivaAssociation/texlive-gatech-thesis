@@ -6,7 +6,7 @@
 # catalog-version 1.8
 Name:		texlive-gatech-thesis
 Version:	1.8
-Release:	1
+Release:	2
 Summary:	Georgia Institute of Technology thesis class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gatech-thesis
