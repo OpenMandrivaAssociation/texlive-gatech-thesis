@@ -9,7 +9,7 @@ Version:	1.8
 Release:	12
 Summary:	Georgia Institute of Technology thesis class
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gatech-thesis
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/gatech-thesis
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gatech-thesis.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gatech-thesis.doc.tar.xz
